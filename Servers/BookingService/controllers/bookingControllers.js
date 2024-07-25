@@ -1,4 +1,5 @@
 const Bookings = require('../models/Booking.js');
+const redisClient = require('../Redis/redisClient.js');
 
 // Book Event
 exports.bookEvent = async (req, res) => {
